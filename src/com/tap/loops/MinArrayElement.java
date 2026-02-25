@@ -1,9 +1,9 @@
 package com.tap.loops;
-import java.util.*;
-public class MaxArrayElement {
+import java.util.Scanner;
+
+public class MinArrayElement {
 
 	public static void main(String[] args) {
-		// this is the code for the largest element in an array
 		Scanner scanner = new Scanner(System.in);
 		
 		// Input
@@ -15,19 +15,20 @@ public class MaxArrayElement {
 		}
 		
 		// Logic
-		int largest = Integer.MIN_VALUE;
+		int smallest = Integer.MAX_VALUE;
 		for(int i=0;i<arr.length;i++)
 		{
-			if(arr[i]>largest)
+			if(arr[i]<smallest)
 			{
-				largest = arr[i];
+				smallest = arr[i];
 			}
 		}
 	
 		// Output
-		System.out.println(largest);
+		System.out.println(smallest);
 		
 		scanner.close();
+
 
 	}
 
