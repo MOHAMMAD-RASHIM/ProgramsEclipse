@@ -37,7 +37,7 @@ public class ArrayPairsAtleastOneElementIsPrime {
                 }
             }
         }
-//        scanner.close();
+        scanner.close();
         
     }
 }
