@@ -1,6 +1,15 @@
 package com.tap.strings;
 import java.util.Scanner;
 
+/*
+Description
+Prints all the alphabetic characters present in a given string in the order of their occurrence.
+
+Input Format
+The program takes a single line of input containing a string. 
+The string can contain alphabets (both uppercase and lowercase), whitespaces, and special characters.
+ */
+
 public class CharacterPrint {
     public static void printChar(String str){
         boolean found = false;
