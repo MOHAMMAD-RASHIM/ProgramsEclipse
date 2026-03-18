@@ -1,5 +1,6 @@
 package com.tap.strings;
 import java.util.*;
+// adding some comment just for refreshment
 public class CharacterCount {
 	public static int charCount(String str)
 	{
