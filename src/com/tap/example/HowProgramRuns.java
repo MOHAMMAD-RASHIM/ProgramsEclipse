@@ -1,5 +1,6 @@
 package com.tap.example;
 
+//import java.util.Scanner;
 class Parent {
     static int staticVar = 10;   // Static variable
 
@@ -70,6 +71,7 @@ class Child extends Parent {
 public class HowProgramRuns{
     public static void main(String[] args) {
 
+//    	new Scanner(System.in);
         System.out.println("Main Method Started");
 
 //        Child.childStaticMethod(); // static method call
