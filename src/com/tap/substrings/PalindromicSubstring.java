@@ -46,6 +46,7 @@ public class PalindromicSubstring {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
         printPalindromicSubstring(str);
+        scanner.close();
         
     }
 }
