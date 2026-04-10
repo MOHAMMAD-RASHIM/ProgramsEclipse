@@ -26,5 +26,6 @@ public class SetProblem {
         {
             System.out.print(value+" ");
         }
+        scanner.close();
     }
 }
