@@ -51,7 +51,8 @@ public class CountOfCharactersAfterEachWord {
         {
             System.out.print(arr[i]+arr[i].length()+" ");
         }
-    
+        
+        scanner.close();
         
        
     }

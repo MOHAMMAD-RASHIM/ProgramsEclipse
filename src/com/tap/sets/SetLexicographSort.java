@@ -53,6 +53,7 @@ public class SetLexicographSort {
         String input = scanner.nextLine();
         String[] urls = split(input);
         sortLexicographically(urls);
+        scanner.close();
     
     }
 }

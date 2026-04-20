@@ -33,5 +33,6 @@ public class ArrayElementOccurrance {
         {
             System.out.print(key+":"+map.get(key)+" ");
         }
+        scanner.close();
     }
 }

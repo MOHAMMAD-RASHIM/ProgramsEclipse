@@ -1,5 +1,4 @@
 package com.tap.maps;
-import java.util.HashMap;
 import java.util.*;
 import java.util.Scanner;
 
@@ -31,5 +30,6 @@ public class CharOccurrenceCounter {
         {
             System.out.print(key+":"+map.get(key)+" ");
         }
+        scanner.close();
     }
 }

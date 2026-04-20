@@ -64,7 +64,7 @@ public class ReverseWordsInaString {
         {
             System.out.print(reverseWords(arr[i])+" ");
         }
-
+        scanner.close();
         
     }
 }
