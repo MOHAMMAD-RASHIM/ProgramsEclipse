@@ -28,8 +28,8 @@ class PrimeSumDigits {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // Your code here
         int n = scanner.nextInt();
         primeSumDigits(n);
+        scanner.close();
     }
 }
