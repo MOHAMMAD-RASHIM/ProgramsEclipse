@@ -5,6 +5,8 @@ class Queue1
 	int data;
 	boolean isDataProduced = false;
 	
+	// if synchronized is not used then IllegalMonitorStateException occurs...
+	
 	synchronized void setData(int data)
 	{
 		if(!isDataProduced) {
