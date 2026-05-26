@@ -35,8 +35,8 @@ public class MinmProductOfPairsInAnArray {
         return Math.min(prod1,Math.min(prod2,prod3));
     }
     
-
-    public static void main(String[] args) {
+    
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
