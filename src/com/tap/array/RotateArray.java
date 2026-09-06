@@ -1,6 +1,16 @@
 package com.tap.array;
 import java.util.Scanner;
 
+
+/*
+ * LOGIC
+ * 
+ * 
+ * First Reverse the array
+ * Second Reverse the k-1 elements 
+ * Third reverse the array elements after k-1
+ */
+
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
