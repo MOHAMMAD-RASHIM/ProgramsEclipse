@@ -1,6 +1,11 @@
 package com.tap.stringManipulation;
 import java.util.Scanner;
 
+
+/*
+ * Program to remove 'b' and 'ac' from a string 
+ */
+
 public class RemoveCharacters {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
